@@ -1,0 +1,223 @@
+@media (max-width: 471px){
+  .nav-font{
+    font-size: 1em !important;
+  }
+}
+
+@media (max-width: 350px){
+  .nav-font{
+    font-size: 0.8em !important;
+  }
+}
+
+body {
+  font-size: 1.8em;
+}
+.nav-font {
+  font-size: 1.5em;
+}
+
+.navbar-dummy {
+  min-height: 50px;
+  margin-bottom: 20px;
+}
+
+.fit {
+  width: 100%;
+}
+
+.cmd-button {
+  text-align: right
+}
+
+.cmd-button a {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.center-menu-box {
+  min-height: 100px;
+  min-width: 350px;
+  margin: 0 auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.center-menu-box ul {
+  display: block;
+  list-style-type: none;
+}
+
+.center-menu-box li {
+  margin-bottom: 10%;
+  text-align: left;
+}
+
+.center-menu-box li:last-child {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+left-angle:before {
+  font-style: normal;
+  content: "\f100";
+  font-family: fontset;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+right-angle:before {
+  font-style: normal;
+  content: "\f101";
+  font-family: fontset;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.center-menu-box li a {
+  text-align: left;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding-left: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.center-menu-box li a div {
+  width: 100%;
+  height: 100%;
+}
+
+table.table {
+  font-size: 1.5em;
+}
+
+@media (max-width: 350px){
+  table.table {
+    font-size: 1em !important;
+  }
+}
+
+th.no {
+
+}
+
+th.name {
+
+}
+
+th.value {
+  text-align: right;
+}
+
+td.no {
+
+}
+
+td.name {
+
+}
+
+td.value {
+  text-align: right;
+}
+
+.before-wrap {
+  position: fixed;
+  width: 45px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: auto;
+}
+
+.before-wrap i {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 2.2em;
+}
+
+.next-wrap {
+  position: fixed;
+  width: 45px;
+  height: 100%;
+  top: 0;
+  left: auto;
+  right: 0;
+}
+
+.next-wrap i {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 2.2em;
+}
+
+/* input dialog */
+#show_modal {
+  top: 25%;
+}
+
+#show_modal .modal-body p#input_title {
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
+#show_modal .modal-body .form-group {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#show_modal .modal-body .form-group input {
+  text-align: right;
+  font-size: 1.5em;
+}
+
+.viewport {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  -webkit-transform: translateZ(0); /* Optional: When heavy at iOS6+ */
+}
+
+.flipsnap {
+  width: 200%; /* 320px(item width) * 2(item count) */
+}
+
+.flipsnap:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.item {
+  float: left;
+  width: 50%;
+  padding: 50px 0;
+  color: #666;
+}
+

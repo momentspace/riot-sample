@@ -1,3 +1,5 @@
+window.riot = require('riot')
+
 import screen from 'tag/screen'
 import btn from 'tag/btn-parts'
 import text from 'tag/text-parts'
